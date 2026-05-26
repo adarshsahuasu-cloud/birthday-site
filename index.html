@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>💖 A Special Surprise for Jaya 💖</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Nunito:wght@300;400;600;700;800;900&family=Pacifico&family=Satisfy&display=swap" rel="stylesheet"/>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+body{font-family:'Nunito',sans-serif;background:#fff0f5;overflow-x:hidden;min-height:100vh;}
+:root{
+  --pink-100:#fff0f5;--pink-200:#ffd6e7;--pink-300:#ffb3cc;--pink-400:#ff80ab;
+  --pink-500:#ff4081;--pink-600:#e91e63;--pink-700:#c2185b;
+  --rose:#ff6b9d;--lavender:#e8b4f0;--peach:#ffcba4;--mint:#b4f0e8;
+  --gold:#ffd700;--purple:#9c6bff;--dark-bg:#120008;
+}
+@keyframes float{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-18px) rotate(4deg);}}
+@keyframes float2{0%,100%{transform:translateY(0) rotate(0deg);}50%{transform:translateY(-12px) rotate(-4deg);}}
+@keyframes floatHeart{0%{transform:translateY(0) scale(1) rotate(0deg);opacity:1;}100%{transform:translateY(-110vh) scale(0.3) rotate(20deg);opacity:0;}}
+@keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.08);}}
+@keyframes shimmer{0%{background-position:-200% center;}100%{background-position:200% center;}}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeInDown{from{opacity:0;transform:translateY(-30px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@keyframes scaleIn{from{opacity:0;transform:scale(0.7);}to{opacity:1;transform:scale(1);}}
+@keyframes bounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-15px);}}
+@keyframes wiggle{0%,100%{transform:rotate(0);}25%{transform:rotate(-10deg);}75%{transform:rotate(10deg);}}
+@keyframes confettiFall{0%{transform:translateY(-10px) rotate(0deg);opacity:1;}100%{transform:translateY(110vh) rotate(720deg);opacity:0;}}
+@keyframes glowPulse{0%,100%{box-shadow:0 0 20px rgba(255,64,129,0.5),0 0 40px rgba(255,64,129,0.2);}50%{box-shadow:0 0 40px rgba(255,64,129,0.9),0 0 80px rgba(255,64,129,0.5);}}
+@keyframes heartbeat{0%,100%{transform:scale(1);}14%{transform:scale(1.18);}28%{transform:scale(1);}42%{transform:scale(1.12);}70%{transform:scale(1);}}
+@keyframes spin{to{transform:rotate(360deg);}}
+@keyframes flicker{0%,100%{opacity:1;transform:scaleY(1) scaleX(1);}30%{opacity:0.85;transform:scaleY(0.92) scaleX(1.05);}60%{opacity:0.95;transform:scaleY(1.05) scaleX(0.96);}}
+@keyframes slideInLeft{from{opacity:0;transform:translateX(-80px);}to{opacity:1;transform:translateX(0);}}
+@keyframes slideInRight{from{opacity:0;transform:translateX(80px);}to{opacity:1;transform:translateX(0);}}
+@keyframes balloonFloat{0%{transform:translateY(110vh) rotate(-6deg);}100%{transform:translateY(-25vh) rotate(6deg);}}
+@keyframes starTwinkle{0%,100%{opacity:0.15;transform:scale(0.7);}50%{opacity:1;transform:scale(1.3);}}
+@keyframes lockShake{0%,100%{transform:translateX(0);}20%,60%{transform:translateX(-10px);}40%,80%{transform:translateX(10px);}}
+@keyframes unlockBounce{0%{transform:scale(1);}30%{transform:scale(1.4);}60%{transform:scale(0.85);}100%{transform:scale(1);}}
+@keyframes couponSlide{from{opacity:0;transform:translateX(-120px) rotate(-8deg);}to{opacity:1;transform:translateX(0) rotate(0deg);}}
+@keyframes lovePulse{0%,100%{transform:scale(1);text-shadow:0 0 30px rgba(255,64,129,0.6);}50%{transform:scale(1.06);text-shadow:0 0 60px rgba(255,64,129,1),0 0 100px rgba(255,64,129,0.6);}}
+@keyframes bubbleUp{0%{opacity:0;transform:translateY(25px) scale(0);}50%{opacity:1;transform:translateY(0) scale(1.12);}100%{opacity:1;transform:translateY(0) scale(1);}}
+@keyframes typeChar{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:translateY(0);}}
+@keyframes neonGlow{0%,100%{text-shadow:0 0 10px #ff4081,0 0 20px #ff4081,0 0 40px #ff4081;}50%{text-shadow:0 0 20px #ff80ab,0 0 40px #ff80ab,0 0 80px #ff80ab;}}
+@keyframes particleRise{0%{transform:translateY(0) scale(1);opacity:1;}100%{transform:translateY(-120px) scale(0.1);opacity:0;}}
+@keyframes rainbowBg{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+@keyframes envelopeFlap{0%{transform:rotateX(0deg);}100%{transform:rotateX(-160deg);}}
+@keyframes slideUp{from{transform:translateY(100%);opacity:0;}to{transform:translateY(0);opacity:1;}}
+@keyframes ripple{0%{transform:scale(0);opacity:0.8;}100%{transform:scale(8);opacity:0;}}
+@keyframes cinematicReveal{0%{clip-path:inset(0 100% 0 0);}100%{clip-path:inset(0 0% 0 0);}}
+@keyframes shake{0%,100%{transform:rotate(0);}10%,30%,50%,70%,90%{transform:rotate(-8deg);}20%,40%,60%,80%{transform:rotate(8deg);}}
+@keyframes gradientShift{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+@keyframes adminPulse{0%,100%{opacity:0.15;}50%{opacity:0.35;}}
+@keyframes zoomIn{from{opacity:0;transform:scale(1.3);}to{opacity:1;transform:scale(1);}}
+
+.glass{background:rgba(255,255,255,0.38);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,0.65);box-shadow:0 10px 40px rgba(255,107,157,0.18),inset 0 1px 0 rgba(255,255,255,0.5);}
+.glass-dark{background:rgba(20,0,10,0.55);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border:1px solid rgba(255,107,157,0.25);}
+.glass-rose{background:rgba(255,182,193,0.28);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.45);}
+.btn-primary{background:linear-gradient(135deg,#ff6b9d,#ff4081,#e91e63);color:white;border:none;border-radius:50px;padding:16px 36px;font-family:'Nunito',sans-serif;font-size:18px;font-weight:800;cursor:pointer;transition:all 0.3s;box-shadow:0 6px 25px rgba(255,64,129,0.45),0 2px 8px rgba(0,0,0,0.1);letter-spacing:0.5px;position:relative;overflow:hidden;}
+.btn-primary::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,0.2),transparent);pointer-events:none;}
+.btn-primary:hover,.btn-primary:active{transform:translateY(-3px) scale(1.04);box-shadow:0 14px 40px rgba(255,64,129,0.6);}
+.btn-secondary{background:rgba(255,255,255,0.75);color:#e91e63;border:2px solid #ff80ab;border-radius:50px;padding:16px 36px;font-family:'Nunito',sans-serif;font-size:18px;font-weight:800;cursor:pointer;transition:all 0.3s;backdrop-filter:blur(10px);}
+.btn-secondary:hover,.btn-secondary:active{background:#fff0f5;transform:translateY(-2px);box-shadow:0 8px 25px rgba(255,64,129,0.25);}
+.page{min-height:100vh;width:100%;position:relative;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.animate-float{animation:float 3.5s ease-in-out infinite;}
+.animate-float2{animation:float2 4s ease-in-out infinite;}
+.animate-pulse-custom{animation:pulse 2s ease-in-out infinite;}
+.animate-bounce-custom{animation:bounce 1.6s ease-in-out infinite;}
+.animate-heartbeat{animation:heartbeat 1.5s ease-in-out infinite;}
+.animate-fadeInUp{animation:fadeInUp 0.8s ease forwards;}
+.animate-fadeIn{animation:fadeIn 0.8s ease forwards;}
+.animate-wiggle{animation:wiggle 0.5s ease-in-out;}
+.glow-text{text-shadow:0 0 20px rgba(255,64,129,0.6);}
+.love-text{animation:lovePulse 2.5s ease-in-out infinite;}
+.neon-text{animation:neonGlow 2s ease-in-out infinite;}
+.heart-click{position:fixed;pointer-events:none;font-size:22px;animation:floatHeart 2.2s ease forwards;z-index:9999;}
+.confetti-piece{position:fixed;animation:confettiFall linear forwards;pointer-events:none;z-index:9998;}
+.balloon{position:fixed;bottom:-100px;animation:balloonFloat linear forwards;pointer-events:none;}
+.star{animation:starTwinkle ease-in-out infinite;}
+.coupon-card{background:linear-gradient(135deg,#fff,#fff0f5);border:2px dashed #ff80ab;border-radius:24px;padding:24px;position:relative;overflow:hidden;animation:couponSlide 0.6s ease forwards;box-shadow:0 8px 32px rgba(255,107,157,0.22);}
+.coupon-card::before{content:'';position:absolute;top:0;left:0;right:0;bottom:0;background:linear-gradient(135deg,rgba(255,107,157,0.06),transparent);pointer-events:none;}
+.candle-flame{width:14px;height:28px;background:linear-gradient(to top,#ff6b00,#ffd700,#fff9e6,#fffef0);border-radius:50% 50% 20% 20%;animation:flicker 0.25s ease-in-out infinite;filter:blur(0.6px);box-shadow:0 0 12px #ffd700,0 0 24px #ff6b0099,0 0 40px #ff6b0044;}
+::-webkit-scrollbar{width:6px;}
+::-webkit-scrollbar-track{background:#fff0f5;}
+::-webkit-scrollbar-thumb{background:linear-gradient(#ff80ab,#ff4081);border-radius:10px;}
+input[type="password"],input[type="text"],input[type="email"]{width:100%;padding:16px 22px;border-radius:50px;border:2px solid #ffb3cc;background:rgba(255,255,255,0.85);font-family:'Nunito',sans-serif;font-size:18px;outline:none;color:#c2185b;text-align:center;letter-spacing:4px;transition:all 0.3s;box-shadow:inset 0 2px 8px rgba(255,107,157,0.08);}
+input:focus{border-color:#ff4081;box-shadow:0 0 25px rgba(255,64,129,0.25),inset 0 2px 8px rgba(255,107,157,0.08);}
+textarea{width:100%;padding:14px;border-radius:16px;border:2px solid #ffb3cc;background:rgba(255,255,255,0.85);font-family:'Nunito',sans-serif;font-size:14px;outline:none;color:#c2185b;transition:border 0.3s;resize:vertical;}
+textarea:focus{border-color:#ff4081;}
+select{padding:10px 16px;border-radius:12px;border:2px solid #ffb3cc;background:rgba(255,255,255,0.9);font-family:'Nunito',sans-serif;font-size:14px;color:#c2185b;outline:none;}
+.admin-panel-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:99999;display:flex;align-items:flex-start;justify-content:center;overflow-y:auto;padding:20px;}
+.admin-panel{background:linear-gradient(135deg,#1a0010,#2d0018);border:2px solid rgba(255,107,157,0.4);border-radius:24px;width:100%;max-width:600px;padding:28px;color:white;position:relative;margin:auto;}
+.admin-section{background:rgba(255,107,157,0.1);border:1px solid rgba(255,107,157,0.25);border-radius:16px;padding:16px;margin-bottom:16px;}
+.admin-input{background:rgba(255,255,255,0.1);border:1px solid rgba(255,107,157,0.3);border-radius:10px;padding:10px 14px;color:white;font-family:'Nunito';width:100%;font-size:14px;outline:none;margin-top:6px;letter-spacing:normal;}
+.admin-input:focus{border-color:#ff6b9d;}
+.admin-label{font-size:12px;color:#ffb3cc;font-weight:700;text-transform:uppercase;letter-spacing:1px;}
+.memory-film{background:#0a0005;border:2px solid rgba(255,107,157,0.3);border-radius:16px;overflow:hidden;position:relative;}
+.film-holes{display:flex;flex-direction:column;gap:8px;padding:8px 4px;}
+.film-hole{width:18px;height:14px;background:rgba(255,255,255,0.1);border-radius:4px;}
+.page-transition-enter{animation:zoomIn 0.5s ease forwards;}
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useRef, useCallback } = React;
+
+// =====================================================
+//  ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗ 
+// ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝ 
+// ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗
+// ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║
+// ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
+//  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝ 
+// Edit everything here. This is YOUR control panel.
+// =====================================================
+
+let CONFIG = {
+  // --- Personal ---
+  name: "Babu 😋",
+  nickname: "Baby👉🏻👈🏻",
+  nickname2: "cutiepie😳",
+  extraNickname: "BKL😚",
+
+  // --- Security ---
+  birthday: "2026-05-28",   // YYYY-MM-DD format
+  password: "love",         // Lock screen password
+  secretCode: "iloveyou",   // Enters admin panel (type this as password)
+  adminPin: "1234",         // PIN to access admin panel via keyboard shortcut
+
+  // --- Letter ---
+  letter: `Meri Dearest Babu,
+
+Tumhe pata bhi nahi kitna special ho tum mere liye(jitne tum sochti ho usee zyda special ho jii ). Jab se mili ho, meri life ne alag hi turn liya or jb se meri gf bani ho uske bad ka toh pucho hi mt ek dam sexyy moment tha do sukoon tyo]pe tumhare pucchi, tumhare huggie sb ek no. h jii. Aaj tumhara birthday hai, aur main chahta tha ki ye din kuch alag ho. Toh yeh loh — ek chota sa surprise chhota nhi h kaffi time lga h isee banane m kaffi mehanat bhi or kaafi dimagh bhi or pura ka pura dil bhi samjhi na 😑😑😂) , . Tum jaanti ho, hum khub larte hain, khub bakwaas karte hain, khud ek dusre se pyaar bhi krte h, khub masti bhi krte pr fir bhi tum ko bolnah tum mere sath khush nhi ho kitne chii ho yrr tum bday hua toh kya hua chii toh tum fir bhi ho chiiiiiii babu baby chii chii — but jo cheez mujhe sabse zyada pasand hai woh yeh hai ki tum ho. Just... tum. tumahari puri weirdness ke saath, cute anger ke saath, baaton ke saath.(mn liya mujhe tumhare OO and () zyda pasand h gussa nhi majak kr rha tha mn liya bolta hu bdal jao aese vase pr the thing is that tum jaise ho pasnad ho bs khush rho itna isliye badlne ki liye bhi bolta hu jii )
+
+Main tumhara har expression yaad karta hoon. Woh moment jab tum khilkhila ke hastti ho — uss waqt mujhe lagta hai sab theek hai duniya mein. Tumhari eyes mein ek alag hi cheez hai jo main describe nahi kar sakta.(meri liye pyaar dekhta h agar describe kru toh )
+
+Aaj ek saal aur ho gaya tumhare hone ka. humare bond ka jii 🥺💕🤩😚😎🥹
+
+Toh — Happy Birthday, My Cutie 💖
+
+Hamesha tumhara,
+BKL🥺💕`,
+
+  // --- Coupons ---
+  coupons: [
+    { emoji: "🎬", title: "Movie Date", desc: "Ek puri shaam sirf hum dono — koi bhi movie tumhari choice", color: "#ff6b9d" },
+    { emoji: "🤗", title: "club", desc: "badiya chipak chipak ki danve karenge babu, 🤗 theek h babu ??", color: "#9c6bff" },
+    { emoji: "🤗", title: "Unlimited Hugs & Kisses", desc: "Jab bhi chahiye, jo bhi amount chahiye — no questions asked", color: "#ff9d6b" },
+    { emoji: "🌸", title: "All Day With You", desc: "Poora din sirf tumhara — no phone, no distractions", color: "#34d399" },
+  ],
+
+  // --- Memories ---
+  // For img/video: paste a direct URL or a base64 data URL.
+  // type: "image" or "video"
+  memories: [
+    { caption: "The day everything changed 💕", img: "videos/vid1.mp4", type: "video" },
+    { caption: "Your smile lights up my world 🌟", img: "videos/vid2.mp4", type: "video" },
+    { caption: "Us, being absolutely silly 🤭", img: "videos/vid3.mp4", type: "video" },
+    { caption: "A moment I never want to forget 💖", img: "videos/vid4.mp4", type: "video" },
+    { caption: "My favourite person 🌹", img: "videos/vid5.mp4", type: "video" },
+    { caption: "Every second with you is magic ✨", img: "videos/vid6.mp4", type: "video" },
+  ],
+  // --- Messages ---
+  finalMessage: "I love u babu meri baby too much 💖",
+  easterEggMsg: "Jo feeling main tumhare saath feel karta hoon, uska koi naam nahi hai (hawas bolte h usee 😂, cool cool majak majak pr tumhare toh baat hi alg h yrrr words m nhi bta sakta ) 💕",
+  birthdaySubtitle: "Blow out the candles, my love, and let the flames carry away all your sadness, all the sad memories of this year '' theek h babu 😉😉" ,
+
+  // --- Your Fav Surprise texts ---
+  favLines: [
+    "🧸 A teddy bear, as cuddly as your hugs",
+    "🍫 Chocolates, as sweet as your smile",
+    "💐 Flowers, as beautiful as you",
+    "🌹 Roses, because you're my everything",
+    "💖 All of this + my whole heart"
+  ],
+  favQuote: "Real life mein zyaada dena hai, par ye virtual gift abhi ke liye 💝okii babu ?? happy na ??",
+
+  // --- Colors ---
+  colors: {
+    primary: "#ff4081",
+    secondary: "#ff6b9d",
+    bg: "#fff0f5",
+    accent: "#9c6bff",
+    gold: "#ffd700",
+  },
+
+  // --- Music ---
+  // Song 1: background music (plays from unlock, pauses during memory videos)
+  musicUrl: "music/bg.mp3",
+  musicName: "Background Song",
+  // Song 2: birthday / candle song (plays after blowing candles, stops on page change)
+  candleSongUrl: "music/cake.mp3",
+  candleSongName: "Cake Candle Song",
+};
+
+// =====================================================
+// UTILS & SHARED COMPONENTS
+// =====================================================
+
+const HEARTS = ["💖","💕","💗","💓","💞","🌸","✨","💫","🌹","🎀","💝","🫀"];
+const EMOJIS_BG = ["💖","💕","🌸","✨","💫","🎀","🌹","💗","⭐","🎁","🎈","💝","🦋","🌺"];
+const rand = (a, b) => a + Math.random() * (b - a);
+const randInt = (a, b) => Math.floor(rand(a, b + 1));
+
+// -- Floating Background Emojis --
+function FloatingBgEmojis({ count = 15, emojis = EMOJIS_BG, opacity = 0.2 }) {
+  const items = React.useMemo(() => Array.from({ length: count }, (_, i) => ({
+    id: i,
+    emoji: emojis[i % emojis.length],
+    left: rand(2, 95),
+    top: rand(2, 95),
+    size: rand(16, 38),
+    dur: rand(3, 7),
+    delay: rand(0, 4),
+    anim: i % 2 === 0 ? 'float' : 'float2',
+  })), [count]);
+  return (
+    <div style={{ position: 'absolute', inset: 0, pointerEvents: 'none', overflow: 'hidden', zIndex: 0 }}>
+      {items.map(it => (
+        <span key={it.id} style={{
+          position: 'absolute', left: `${it.left}%`, top: `${it.top}%`,
+          fontSize: it.size, opacity,
+          animation: `${it.anim} ${it.dur}s ease-in-out ${it.delay}s infinite`,
+          userSelect: 'none',
+          display: 'block',
+          filter: 'blur(0.3px)',
+        }}>{it.emoji}</span>
+      ))}
+    </div>
+  );
+}
+
+// -- Confetti --
+function Confetti({ active, count = 80 }) {
+  const pieces = React.useMemo(() => Array.from({ length: count }, (_, i) => ({
+    id: i,
+    color: ['#ff4081','#ff80ab','#ffb3cc','#ff6b9d','#ffd700','#ff9d6b','#a78bfa','#34d399','#60a5fa','#f472b6'][i % 10],
+    left: rand(0, 100),
+    dur: rand(2, 5),
+    delay: rand(0, 2),
+    size: rand(8, 18),
+    shape: i % 4,
+  })), [count]);
+  if (!active) return null;
+  return (
+    <>
+      {pieces.map(p => (
+        <div key={p.id} className="confetti-piece" style={{
+          left: `${p.left}%`, top: '-20px',
+          background: p.color,
+          width: p.size, height: p.size * (p.shape === 3 ? 0.4 : 1),
+          borderRadius: p.shape === 0 ? '50%' : p.shape === 1 ? '2px' : p.shape === 2 ? '0' : '4px',
+          animationDuration: `${p.dur}s`,
+          animationDelay: `${p.delay}s`,
+        }} />
+      ))}
+    </>
+  );
+}
+
+// -- Balloons --
+function FloatingBalloons({ active }) {
+  const balloons = React.useMemo(() => Array.from({ length: 10 }, (_, i) => ({
+    id: i, emoji: ['🎈','🎀','🎁','💖','🎊','✨','💕','🎉','🌸','💝'][i],
+    left: rand(5, 92), dur: rand(5, 11), delay: i * 0.35,
+  })), []);
+  if (!active) return null;
+  return (
+    <>
+      {balloons.map(b => (
+        <div key={b.id} className="balloon" style={{
+          left: `${b.left}%`, fontSize: rand(32, 52),
+          animationDuration: `${b.dur}s`,
+          animationDelay: `${b.delay}s`,
+        }}>{b.emoji}</div>
+      ))}
+    </>
+  );
+}
+
+// -- Click Hearts --
+function ClickHearts() {
+  const [hearts, setHearts] = useState([]);
+  useEffect(() => {
+    const handle = (e) => {
+      const x = e.clientX ?? (e.touches?.[0]?.clientX) ?? 100;
+      const y = e.clientY ?? (e.touches?.[0]?.clientY) ?? 100;
+      setHearts(prev => [...prev.slice(-14), {
+        id: Date.now() + Math.random(), x, y,
+        emoji: HEARTS[Math.floor(Math.random() * HEARTS.length)],
+        size: rand(18, 30),
+      }]);
+    };
+    window.addEventListener('click', handle);
+    window.addEventListener('touchstart', handle, { passive: true });
+    return () => { window.removeEventListener('click', handle); window.removeEventListener('touchstart', handle); };
+  }, []);
+  return (
+    <>
+      {hearts.map(h => (
+        <div key={h.id} className="heart-click" style={{
+          left: h.x - 12, top: h.y - 12, fontSize: h.size,
+        }}>{h.emoji}</div>
+      ))}
+    </>
+  );
+}
+
+// -- Countdown Badge --
+function CountdownBadge() {
+  const [time, setTime] = useState('');
+  useEffect(() => {
+    const update = () => {
+      const now = new Date();
+      const [y,m,d] = CONFIG.birthday.split('-').map(Number);
+      const target = new Date(y, m-1, d);
+      const diff = target - now;
+      if (diff <= 0) { setTime("🎉 It's her birthday!"); return; }
+      const days = Math.floor(diff / 86400000);
+      const h = Math.floor((diff % 86400000) / 3600000);
+      const min = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      setTime(`🎂 ${days}d ${h}h ${min}m ${s}s`);
+    };
+    update();
+    const id = setInterval(update, 1000);
+    return () => clearInterval(id);
+  }, []);
+  return (
+    <div style={{
+      position: 'fixed', top: 12, right: 12, zIndex: 1000,
+      background: 'rgba(255,255,255,0.88)', backdropFilter: 'blur(12px)',
+      borderRadius: 50, padding: '7px 15px',
+      border: '1.5px solid #ffb3cc', fontSize: 11.5, fontWeight: 800,
+      color: '#e91e63', fontFamily: 'Nunito',
+      boxShadow: '0 4px 15px rgba(255,107,157,0.2)',
+    }}>{time}</div>
+  );
+}
+
+// -- Music Player --
+function MusicPlayer({ audioRef, playing, setPlaying, candleAudioRef, candlePlaying }) {
+  const [vol, setVol] = useState(0.6);
+
+  const toggle = () => {
+    if (!audioRef.current) return;
+    if (playing) { audioRef.current.pause(); }
+    else { audioRef.current.play().catch(() => {}); }
+    setPlaying(!playing);
+  };
+
+  const hasBg = !!CONFIG.musicUrl;
+  const hasCandle = candlePlaying && !!CONFIG.candleSongUrl;
+  if (!hasBg && !hasCandle) return null;
+
+  // Show candle song label when it's playing, else bg song
+  const songName = hasCandle
+    ? (CONFIG.candleSongName || '🎂 Birthday Song')
+    : (CONFIG.musicName || '🎶 Song');
+
+  return (
+    <div style={{
+      position: 'fixed', bottom: 16, left: 16, zIndex: 1001,
+      display: 'flex', alignItems: 'center', gap: 8,
+      background: 'rgba(255,255,255,0.92)', backdropFilter: 'blur(16px)',
+      borderRadius: 50, padding: '8px 16px',
+      border: '1.5px solid #ffb3cc', boxShadow: '0 4px 20px rgba(255,107,157,0.3)',
+      maxWidth: '70vw',
+    }}>
+      <button onClick={hasBg ? toggle : undefined} style={{
+        background: 'none', border: 'none', cursor: hasBg ? 'pointer' : 'default', fontSize: 20,
+        animation: (playing || hasCandle) ? 'pulse 1s ease-in-out infinite' : 'none',
+        flexShrink: 0,
+      }}>{(playing || hasCandle) ? '🎵' : '▶️'}</button>
+      <span style={{
+        fontSize: 11, fontWeight: 700, color: '#e91e63',
+        fontFamily: 'Nunito', whiteSpace: 'nowrap', overflow: 'hidden',
+        textOverflow: 'ellipsis', maxWidth: 110,
+      }}>{songName}</span>
+      {hasBg && (
+        <input type="range" min="0" max="1" step="0.05" value={vol}
+          onChange={e => { setVol(+e.target.value); if(audioRef.current) audioRef.current.volume = +e.target.value; }}
+          style={{ width: 55, accentColor: '#ff4081', cursor: 'pointer', flexShrink: 0 }}
+        />
+      )}
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 1: LOCK SCREEN
+// =====================================================
+function LockScreen({ onUnlock, onAdminOpen }) {
+  const [pw, setPw] = useState('');
+  const [shake, setShake] = useState(false);
+  const [unlocking, setUnlocking] = useState(false);
+  const [hint, setHint] = useState('');
+  const [stars] = useState(() => Array.from({ length: 30 }, (_, i) => ({
+    id: i, left: rand(0,100), top: rand(0,100),
+    size: rand(6,16), dur: rand(1.5,4), delay: rand(0,3)
+  })));
+
+  const tryUnlock = () => {
+    const val = pw.toLowerCase().trim();
+    if (val === CONFIG.password.toLowerCase()) {
+      setUnlocking(true);
+      setTimeout(() => onUnlock(), 1300);
+    } else if (val === CONFIG.secretCode.toLowerCase()) {
+      onAdminOpen();
+    } else {
+      setShake(true);
+      setHint('Hint: it\'s her name 💕');
+      setTimeout(() => setShake(false), 700);
+      setPw('');
+    }
+  };
+
+  return (
+    <div className="page" style={{
+      background: 'linear-gradient(160deg,#1a0010,#3d0020,#1a0015,#0d0008)',
+      padding: 20,
+    }}>
+      {/* Stars */}
+      {stars.map(s => (
+        <div key={s.id} className="star" style={{
+          position: 'absolute', left:`${s.left}%`, top:`${s.top}%`,
+          fontSize: s.size, animationDuration:`${s.dur}s`, animationDelay:`${s.delay}s`,
+        }}>✨</div>
+      ))}
+      <FloatingBgEmojis count={18} emojis={['💖','💕','🌸','🎀','💝','⭐','🌹']} opacity={0.15} />
+
+      <div style={{
+        position: 'relative', zIndex: 1, width: '100%', maxWidth: 420, textAlign: 'center',
+        animation: unlocking ? 'unlockBounce 1.2s ease forwards' : 'fadeInUp 0.9s ease',
+      }}>
+        <div style={{ fontSize: unlocking ? 90 : 72, marginBottom: 6,
+          animation: unlocking ? 'spin 1s ease' : 'float 3s ease-in-out infinite',
+          display: 'block', filter: 'drop-shadow(0 0 20px rgba(255,107,157,0.8))',
+          transition: 'font-size 0.3s',
+        }}>
+          {unlocking ? '🔓' : '🔒'}
+        </div>
+
+        <div style={{ fontSize: 32, marginBottom: 4, animation: 'float2 4s ease-in-out infinite' }}>
+          🎂 ✨ 💖 ✨ 🎂
+        </div>
+
+        <div className="glass" style={{
+          borderRadius: 32, padding: '36px 28px', margin: '16px 0',
+          border: '1px solid rgba(255,107,157,0.4)',
+          boxShadow: '0 20px 60px rgba(255,64,129,0.25), inset 0 1px 0 rgba(255,255,255,0.3)',
+        }}>
+          <h1 style={{
+            fontFamily: 'Dancing Script', fontSize: 34, color: '#e91e63',
+            marginBottom: 6, animation: 'lovePulse 2.5s ease-in-out infinite',
+            textShadow: '0 0 20px rgba(255,64,129,0.4)',
+          }}>A Private Surprise</h1>
+          <p style={{ color: '#c2185b', fontSize: 15, marginBottom: 20, fontWeight: 700 }}>
+            Made with love, just for you 💖
+          </p>
+          <p style={{ color: 'rgba(194,24,91,0.7)', fontSize: 13, marginBottom: 18 }}>
+            🔐 Enter the secret password to unlock
+          </p>
+
+          <div style={{ animation: shake ? 'lockShake 0.6s ease' : 'none' }}>
+            <input
+              type="password" value={pw}
+              onChange={e => setPw(e.target.value)}
+              onKeyDown={e => e.key === 'Enter' && tryUnlock()}
+              placeholder="💌 password..."
+              style={{ marginBottom: 16 }}
+            />
+          </div>
+
+          {hint && (
+            <p style={{ color: '#ff80ab', fontSize: 13, marginBottom: 14, animation: 'fadeIn 0.5s ease' }}>
+              {hint}
+            </p>
+          )}
+
+          <button className="btn-primary" onClick={tryUnlock} style={{ width: '100%', fontSize: 19, padding: '18px' }}>
+            {unlocking ? '✨ Opening...' : '💖 Open Surprise'}
+          </button>
+
+          {unlocking && (
+            <div style={{ marginTop: 22, fontSize: 30 }}>
+              {'💖💕✨🎉🎊🌸🎀'.split('').map((e, i) => (
+                <span key={i} style={{ animation: `bubbleUp 0.5s ${i*0.1}s ease forwards`, display:'inline-block', opacity:0 }}>{e}</span>
+              ))}
+            </div>
+          )}
+        </div>
+
+        <p style={{ color: 'rgba(255,182,193,0.7)', fontSize: 12 }}>
+          🌸 A handmade digital gift — with all my heart
+        </p>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 2: INTRO
+// =====================================================
+function IntroPage({ onYes, onNo }) {
+  const [blushing, setBlushing] = useState(false);
+  return (
+    <div className="page" style={{ background: 'linear-gradient(160deg,#fff0f5,#ffd6e7,#ffe8ef)', padding: 20 }}>
+      <FloatingBgEmojis count={22} />
+      <FloatingBalloons active={true} />
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:420, textAlign:'center', animation:'fadeInUp 0.8s ease' }}>
+
+        {/* Shinchan-style blushing character */}
+        <div
+          onMouseEnter={() => setBlushing(true)}
+          onMouseLeave={() => setBlushing(false)}
+          style={{
+            width:160, height:160, borderRadius:'50%', margin:'0 auto 18px',
+            background:'linear-gradient(135deg,#fff0f5,#ffd6e7)',
+            border:'5px solid #ffb3cc', display:'flex', alignItems:'center',
+            justifyContent:'center', animation:'float 3.2s ease-in-out infinite',
+            fontSize:80, boxShadow:'0 10px 40px rgba(255,107,157,0.35)',
+            cursor:'pointer', transition:'all 0.3s', position:'relative', overflow:'hidden',
+          }}>
+          {blushing ? '🥹' : '😊'}
+          {blushing && (
+            <div style={{
+              position:'absolute', bottom:20, left:20, right:20,
+              display:'flex', justifyContent:'space-between',
+              pointerEvents:'none',
+            }}>
+              <div style={{width:20,height:10,background:'rgba(255,107,157,0.5)',borderRadius:'50%'}}/>
+              <div style={{width:20,height:10,background:'rgba(255,107,157,0.5)',borderRadius:'50%'}}/>
+            </div>
+          )}
+        </div>
+
+        <div style={{ fontSize:14, color:'#ff80ab', marginBottom:12, fontStyle:'italic' }}>
+          (poke the face! 👆)
+        </div>
+
+        <div className="glass" style={{ borderRadius:30, padding:'28px 24px', boxShadow:'0 16px 50px rgba(255,107,157,0.2)' }}>
+          <div style={{ fontSize:26, marginBottom:10, animation:'bounce 1.5s ease-in-out infinite' }}>
+            🎂 Happy Birthday {CONFIG.name}! 🎂
+          </div>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:26, color:'#e91e63', marginBottom:8, lineHeight:1.3 }}>
+            I made something special for u.
+          </h2>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:30, color:'#ff4081', marginBottom:24, fontWeight:700 }}>
+            Do u wanna see it? 🌸
+          </h2>
+
+          <div style={{ display:'flex', gap:14, justifyContent:'center', flexWrap:'wrap' }}>
+            <button className="btn-primary" onClick={onYes}
+              style={{ flex:1, minWidth:130, animation:'glowPulse 2s ease-in-out infinite', fontSize:20, padding:'18px' }}>
+              YES 💖
+            </button>
+            <button className="btn-secondary" onClick={onNo} style={{ flex:1, minWidth:130, fontSize:18 }}>
+              NO 😤
+            </button>
+          </div>
+          <p style={{ color:'#ffb3cc', fontSize:12, marginTop:14 }}>
+            (psst — please say yes 🥺 I worked really hard on this)
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 3: NO PAGE (funny angry meme)
+// =====================================================
+function NoPage({ onBack }) {
+  const [clicks, setClicks] = useState(0);
+  const msgs = [
+    "Maine itni mehnat se banaya tha 😭\nAur tum NEE bol deti ho??",
+    "Seriously?? SERIOUSLY?? 😤\nMain tumse baat nahi karta ab.",
+    "Fine. Fine. FINE. 😾\nLe lo tumhara NO.",
+    "OK I'm giving you one more chance 🥺\nPlease?? PLEASE?",
+    "Jao. BYE. 💔\n...actually wait please come back 😭",
+  ];
+  return (
+    <div className="page" style={{ background:'linear-gradient(135deg,#fff0f5,#ffe0ec)', padding:20 }}>
+      <FloatingBgEmojis emojis={['😤','💢','😡','🙄','😾','👿','💔']} count={16} opacity={0.2} />
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:420, textAlign:'center', animation:'fadeInUp 0.6s ease' }}>
+        <div style={{ fontSize:100, marginBottom:8, animation:'shake 0.6s ease-in-out infinite', display:'block' }}>
+          😤
+        </div>
+        <div className="glass" style={{ borderRadius:30, padding:'28px 24px' }}>
+          <h1 style={{ fontFamily:'Pacifico', fontSize:28, color:'#e91e63', marginBottom:12, animation:'pulse 0.8s ease-in-out infinite' }}>
+            HMPH! How dare you!?
+          </h1>
+          <div style={{ background:'rgba(255,64,129,0.1)', borderRadius:18, padding:'18px', marginBottom:18, border:'2px dashed #ffb3cc' }}>
+            <p style={{ fontSize:15, color:'#c2185b', fontWeight:700, lineHeight:1.7, whiteSpace:'pre-line' }}>
+              {msgs[Math.min(clicks, msgs.length - 1)]}
+            </p>
+          </div>
+          <div style={{ fontSize:42, marginBottom:18, animation:'wiggle 0.5s ease-in-out infinite' }}>😾💔😾</div>
+          <button className="btn-primary" onClick={() => { if(clicks < msgs.length - 2) setClicks(c => c+1); else onBack(); }} style={{ width:'100%' }}>
+            {clicks < msgs.length - 2 ? "...No still 😈" : "Okay FINE 😅 Try Again"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 4: BIRTHDAY CANDLE PAGE
+// =====================================================
+function BirthdayCandlePage({ onNext, onCandleBlown }) {
+  const [blown, setBlown] = useState(false);
+  const [confetti, setConfetti] = useState(false);
+  const [showNext, setShowNext] = useState(false);
+
+  const blowCandle = () => {
+    setBlown(true);
+    setConfetti(true);
+    if (onCandleBlown) onCandleBlown();
+    setTimeout(() => setShowNext(true), 2000);
+    setTimeout(() => setConfetti(false), 6000);
+  };
+
+  return (
+    <div className="page" style={{ background:'linear-gradient(155deg,#fff0f5,#ffe0ec,#fff5f8)', padding:20 }}>
+      <FloatingBgEmojis count={14} />
+      <Confetti active={confetti} count={100} />
+      <FloatingBalloons active={blown} />
+
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:460, textAlign:'center', animation:'fadeInUp 0.7s ease' }}>
+        {blown && (
+          <div style={{ fontSize:24, marginBottom:12, animation:'bounce 1s ease-in-out infinite' }}>
+            🎊 🎉 HAPPY BIRTHDAY!! 🎉 🎊
+          </div>
+        )}
+
+        {/* Scene */}
+        <div style={{ display:'flex', alignItems:'flex-end', justifyContent:'center', gap:24, marginBottom:20 }}>
+          {/* Shinchan character */}
+          <div style={{
+            display:'flex', flexDirection:'column', alignItems:'center',
+            animation: blown ? 'bounce 1.5s ease-in-out infinite' : 'float2 3s ease-in-out infinite',
+          }}>
+            <div style={{
+              width:90, height:110, background:'linear-gradient(135deg,#fff0f5,#ffd6e7)',
+              borderRadius:'50% 50% 40% 40% / 60% 60% 40% 40%',
+              display:'flex', alignItems:'center', justifyContent:'center',
+              fontSize:64, boxShadow:'0 6px 20px rgba(255,107,157,0.25)',
+              border:'3px solid #ffb3cc',
+            }}>
+              {blown ? '🥳' : '🥺'}
+            </div>
+            <div style={{ fontSize:12, color:'#ff80ab', marginTop:4, fontWeight:700 }}>Shinchan</div>
+          </div>
+
+          {/* Cake with candles */}
+          <div style={{ textAlign:'center' }}>
+            {!blown ? (
+              <div style={{ display:'flex', justifyContent:'center', gap:10, marginBottom:6 }}>
+                {[0,1,2,3].map(i => (
+                  <div key={i} style={{ display:'flex', flexDirection:'column', alignItems:'center' }}>
+                    <div className="candle-flame" style={{ animationDelay:`${i*0.08}s` }} />
+                    <div style={{ width:10, height:28, background:`linear-gradient(to bottom,${['#ff6b9d','#9c6bff','#ff9d6b','#34d399'][i]},${['#ff4081','#7c4bff','#ff7d4b','#24b379'][i]})`, borderRadius:5 }} />
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <div style={{ fontSize:28, marginBottom:6, animation:'bubbleUp 0.5s ease' }}>✨💨✨</div>
+            )}
+            <div style={{ fontSize:90, animation: blown ? 'bounce 1s ease-in-out infinite' : 'float 4s ease-in-out infinite',
+              filter: 'drop-shadow(0 4px 20px rgba(255,107,157,0.4))' }}>
+              🎂
+            </div>
+          </div>
+        </div>
+
+        <div className="glass" style={{ borderRadius:30, padding:'26px 22px' }}>
+          {!blown ? (
+            <>
+              <h2 style={{ fontFamily:'Dancing Script', fontSize:28, color:'#e91e63', marginBottom:8 }}>
+                Happy Birthday, {CONFIG.name}! 🎂
+              </h2>
+              <p style={{ color:'#c2185b', fontSize:15, marginBottom:22, fontWeight:600 }}>
+                {CONFIG.birthdaySubtitle} 🌸
+              </p>
+              <button className="btn-primary" onClick={blowCandle} style={{ width:'100%', fontSize:20, padding:'20px' }}>
+                💨 Blow the Candles!
+              </button>
+            </>
+          ) : (
+            <div style={{ animation:'bubbleUp 0.6s ease forwards' }}>
+              <h2 style={{ fontFamily:'Dancing Script', fontSize:30, color:'#e91e63', marginBottom:8, animation:'lovePulse 2s ease-in-out infinite' }}>
+                Yaaay!! 🎉
+              </h2>
+              <p style={{ color:'#c2185b', fontSize:15, marginBottom:8, fontWeight:700 }}>
+                May all your wishes come true! ✨
+              </p>
+              <div style={{ fontSize:30, marginBottom:18, animation:'bounce 1s ease-in-out infinite' }}>💖🎊🎉🎊💖</div>
+              {showNext && (
+                <button className="btn-primary" onClick={onNext} style={{ width:'100%', animation:'fadeInUp 0.5s ease' }}>
+                  Next 💌
+                </button>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 5: LETTER PAGE (animated envelope)
+// =====================================================
+function LetterPage({ onNext }) {
+  const [phase, setPhase] = useState('closed'); // closed | opening | open
+  const [charIdx, setCharIdx] = useState(0);
+  const letterText = CONFIG.letter;
+  const timerRef = useRef(null);
+
+  const openEnvelope = () => {
+    setPhase('opening');
+    setTimeout(() => setPhase('open'), 900);
+  };
+
+  useEffect(() => {
+    if (phase === 'open') {
+      timerRef.current = setInterval(() => {
+        setCharIdx(i => {
+          if (i >= letterText.length) { clearInterval(timerRef.current); return i; }
+          return i + 3;
+        });
+      }, 18);
+    }
+    return () => clearInterval(timerRef.current);
+  }, [phase]);
+
+  const displayedText = letterText.slice(0, charIdx);
+
+  return (
+    <div className="page" style={{
+      background:'linear-gradient(160deg,#fff0f5,#ffe0ec,#fff5f8)',
+      padding:20, justifyContent:'flex-start', paddingTop:50, minHeight:'100vh',
+    }}>
+      <FloatingBgEmojis emojis={['🌹','💐','🌸','🌺','💖','✉️','💝','🦋']} count={14} opacity={0.18} />
+
+      {/* Side decor */}
+      <div style={{ position:'fixed', left:8, top:'25%', fontSize:28, animation:'float 3.5s ease-in-out infinite', display:'flex', flexDirection:'column', gap:10, zIndex:0 }}>
+        {'🌹 💐 🌸 🌺 🌹'.split(' ').map((e,i) => <div key={i} style={{ animationDelay:`${i*0.3}s` }}>{e}</div>)}
+      </div>
+      <div style={{ position:'fixed', right:8, top:'25%', fontSize:28, animation:'float2 4s ease-in-out 0.5s infinite', display:'flex', flexDirection:'column', gap:10, zIndex:0 }}>
+        {'🌹 💐 🌸 🌺 🌹'.split(' ').map((e,i) => <div key={i} style={{ animationDelay:`${i*0.3}s` }}>{e}</div>)}
+      </div>
+
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:440, textAlign:'center' }}>
+
+        {phase === 'closed' && (
+          <div style={{ animation:'fadeInUp 0.7s ease' }}>
+            {/* Animated envelope */}
+            <div style={{
+              width:160, height:120, margin:'0 auto 20px', position:'relative',
+              animation:'float 3s ease-in-out infinite',
+              filter:'drop-shadow(0 10px 30px rgba(255,107,157,0.5))',
+            }}>
+              {/* Envelope body */}
+              <div style={{
+                width:'100%', height:'100%', background:'linear-gradient(135deg,#ff80ab,#ff4081)',
+                borderRadius:12, position:'absolute',
+              }}/>
+              {/* Flap */}
+              <div style={{
+                position:'absolute', top:0, left:0, right:0, height:60,
+                background:'linear-gradient(135deg,#ff6b9d,#e91e63)',
+                clipPath:'polygon(0 0, 50% 65%, 100% 0)',
+                borderRadius:'12px 12px 0 0',
+              }}/>
+              {/* Heart seal */}
+              <div style={{ position:'absolute', top:'42%', left:'50%', transform:'translate(-50%,-50%)', fontSize:28,
+                animation:'heartbeat 1.5s ease-in-out infinite' }}>💖</div>
+            </div>
+            <h2 style={{ fontFamily:'Dancing Script', fontSize:32, color:'#e91e63', marginBottom:6 }}>Open Me 💌</h2>
+            <p style={{ color:'#c2185b', fontWeight:700, marginBottom:6 }}>One surprise at a time</p>
+            <p style={{ color:'#ff80ab', fontSize:14, marginBottom:26, fontStyle:'italic', fontFamily:'Satisfy' }}>
+              "real life nhi diye toh kya hua virtually le lo" 🥀
+            </p>
+            <button className="btn-primary" onClick={openEnvelope} style={{ width:'100%', fontSize:19, padding:'18px' }}>
+              💌 Open Envelope
+            </button>
+          </div>
+        )}
+
+        {phase === 'opening' && (
+          <div style={{ textAlign:'center', animation:'fadeIn 0.4s ease' }}>
+            <div style={{ fontSize:90, animation:'bounce 0.4s ease-in-out infinite' }}>✉️</div>
+            <p style={{ color:'#e91e63', fontSize:18, fontWeight:700, marginTop:16, animation:'pulse 0.5s ease-in-out infinite' }}>
+              Opening...
+            </p>
+          </div>
+        )}
+
+        {phase === 'open' && (
+          <div style={{ animation:'fadeInUp 0.8s ease' }}>
+            <div style={{ fontSize:36, marginBottom:10, animation:'bounce 1.5s ease-in-out infinite' }}>💌✨💌</div>
+            <div className="glass" style={{
+              borderRadius:28, padding:'28px 22px', textAlign:'left',
+              maxHeight:'60vh', overflowY:'auto', marginBottom:16,
+              background:'rgba(255,255,255,0.75)',
+            }}>
+              <h3 style={{ fontFamily:'Dancing Script', fontSize:24, color:'#e91e63', marginBottom:18, textAlign:'center' }}>
+                For My Dearest {CONFIG.name} 💖
+              </h3>
+              <div style={{
+                whiteSpace:'pre-line', color:'#c2185b', lineHeight:2,
+                fontSize:14.5, fontFamily:'Nunito', fontWeight:500,
+              }}>
+                {displayedText}
+                {charIdx < letterText.length && (
+                  <span style={{ animation:'pulse 0.5s ease-in-out infinite', display:'inline-block', width:2, height:18, background:'#ff4081', verticalAlign:'middle', marginLeft:2 }} />
+                )}
+              </div>
+            </div>
+            <div style={{ fontSize:24, margin:'10px 0', animation:'pulse 1.5s ease-in-out infinite' }}>🌹💝🌹</div>
+            {charIdx >= letterText.length && (
+              <button className="btn-primary" onClick={onNext} style={{ width:'100%', animation:'fadeInUp 0.5s ease' }}>
+                Click Here 💖
+              </button>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 6: CHOICES
+// =====================================================
+function ChoicesPage({ onChoice }) {
+  const choices = [
+    { id:'fav', emoji:'🧸', label:'Your Fav', desc:'Something sweet just for you', color:'#ff6b9d', bg:'linear-gradient(135deg,#fff0f5,#ffd6e7)' },
+    { id:'coupons', emoji:'🎟️', label:'Coupons', desc:'Real promises, ready to redeem', color:'#9c6bff', bg:'linear-gradient(135deg,#f5f0ff,#e8d6ff)' },
+    { id:'memories', emoji:'🎞️', label:'Memories', desc:'Our story, beautifully framed', color:'#ff9d6b', bg:'linear-gradient(135deg,#fff8f0,#ffe8d6)' },
+  ];
+  return (
+    <div className="page" style={{ background:'linear-gradient(155deg,#fff0f5,#ffd6e7)', padding:20 }}>
+      <FloatingBgEmojis count={14} />
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:440, animation:'fadeInUp 0.7s ease' }}>
+        <div style={{ textAlign:'center', marginBottom:26 }}>
+          <div style={{ fontSize:50, marginBottom:8, animation:'bounce 1.5s ease-in-out infinite',
+            filter:'drop-shadow(0 4px 15px rgba(255,107,157,0.5))' }}>🎁</div>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:32, color:'#e91e63' }}>Choose a Surprise! 💖</h2>
+          <p style={{ color:'#c2185b', fontWeight:700, marginTop:6 }}>All made just for you, {CONFIG.nickname} 🌸</p>
+        </div>
+        <div style={{ display:'flex', flexDirection:'column', gap:18 }}>
+          {choices.map((c, i) => (
+            <button key={c.id} onClick={() => onChoice(c.id)} style={{
+              background: c.bg, border:`2.5px solid ${c.color}55`,
+              borderRadius:26, padding:'26px 28px', cursor:'pointer', textAlign:'left',
+              display:'flex', alignItems:'center', gap:20,
+              boxShadow:`0 10px 30px ${c.color}25`,
+              transition:'all 0.35s cubic-bezier(0.175,0.885,0.32,1.275)',
+              animation:`fadeInUp 0.6s ${i*0.15}s ease both`,
+              fontFamily:'Nunito', position:'relative', overflow:'hidden',
+            }}
+            onMouseEnter={e => { e.currentTarget.style.transform='translateY(-5px) scale(1.02)'; e.currentTarget.style.boxShadow=`0 18px 45px ${c.color}44`; }}
+            onMouseLeave={e => { e.currentTarget.style.transform=''; e.currentTarget.style.boxShadow=`0 10px 30px ${c.color}25`; }}
+            onTouchStart={e => e.currentTarget.style.transform='scale(0.97)'}
+            onTouchEnd={e => e.currentTarget.style.transform=''}
+            >
+              <span style={{ fontSize:56, filter:`drop-shadow(0 2px 8px ${c.color}66)` }}>{c.emoji}</span>
+              <div>
+                <div style={{ fontSize:23, fontWeight:900, color:c.color, marginBottom:4 }}>{c.label}</div>
+                <div style={{ color:'#888', fontSize:13, lineHeight:1.5 }}>{c.desc}</div>
+              </div>
+              <div style={{ marginLeft:'auto', color:c.color, fontSize:22, opacity:0.5 }}>→</div>
+            </button>
+          ))}
+        </div>
+        <button className="btn-primary" onClick={() => onChoice('final')}
+          style={{ width:'100%', marginTop:22, fontSize:17, padding:'16px',
+            background:'linear-gradient(135deg,#e91e63,#c2185b)' }}>
+          💌 Finish & See the Grand Ending
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 7: YOUR FAV
+// =====================================================
+function YourFavPage({ onBack }) {
+  return (
+    <div className="page" style={{ background:'linear-gradient(155deg,#fff0f5,#ffd6e7)', padding:20 }}>
+      <FloatingBgEmojis emojis={['🧸','🍫','💐','🌹','💖','🎀']} count={14} />
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:440, textAlign:'center', animation:'fadeInUp 0.7s ease' }}>
+
+        {/* Teddy + chocolates + bouquet */}
+        <div style={{ display:'flex', justifyContent:'center', gap:10, marginBottom:16, fontSize:70,
+          filter:'drop-shadow(0 6px 20px rgba(255,107,157,0.4))', animation:'float 3s ease-in-out infinite' }}>
+          🧸 🍫 💐
+        </div>
+        <div style={{ fontSize:16, color:'#ff80ab', fontWeight:700, marginBottom:18, animation:'bounce 2s ease-in-out infinite' }}>
+          Everything you deserve and more 💖
+        </div>
+
+        <div className="glass" style={{ borderRadius:30, padding:'28px 22px' }}>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:30, color:'#e91e63', marginBottom:18 }}>
+            For You, My Fav 🎀
+          </h2>
+          <div style={{ display:'flex', flexDirection:'column', gap:12, marginBottom:20 }}>
+            {CONFIG.favLines.map((line, i) => (
+              <div key={i} style={{
+                background:`linear-gradient(135deg,rgba(255,107,157,${0.06 + i*0.02}),transparent)`,
+                borderRadius:14, padding:'14px 18px',
+                border:'1px solid rgba(255,107,157,0.2)',
+                animation:`fadeInUp 0.5s ${i*0.12}s ease both`,
+                color:'#c2185b', fontSize:15, fontWeight:600, textAlign:'left',
+              }}>{line}</div>
+            ))}
+          </div>
+          <p style={{ color:'#ff80ab', fontStyle:'italic', fontSize:14, marginBottom:22, fontFamily:'Satisfy', lineHeight:1.6 }}>
+            "{CONFIG.favQuote}"
+          </p>
+          <button className="btn-secondary" onClick={onBack} style={{ width:'100%' }}>
+            ← Back to Choices
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 8: COUPONS
+// =====================================================
+function CouponsPage({ onBack }) {
+  const [redeemed, setRedeemed] = useState([]);
+  const [sparkle, setSparkle] = useState(null);
+
+  const redeem = (i) => {
+    setRedeemed(r => r.includes(i) ? r.filter(x => x!==i) : [...r, i]);
+    setSparkle(i);
+    setTimeout(() => setSparkle(null), 1500);
+  };
+
+  return (
+    <div className="page" style={{ background:'linear-gradient(135deg,#fff0f5,#f5f0ff,#fff8f0)', padding:20, justifyContent:'flex-start', paddingTop:40 }}>
+      <FloatingBgEmojis emojis={['🎟️','💖','🎀','✨','💝','⭐']} count={12} />
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:460, animation:'fadeInUp 0.7s ease' }}>
+        <div style={{ textAlign:'center', marginBottom:22 }}>
+          <div style={{ fontSize:54, animation:'bounce 1.5s ease-in-out infinite',
+            filter:'drop-shadow(0 4px 15px rgba(156,107,255,0.5))' }}>🎟️</div>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:30, color:'#e91e63' }}>Your Love Coupons 💕</h2>
+          <p style={{ color:'#888', fontSize:13, marginTop:4 }}>Each one is a real promise 💖</p>
+        </div>
+        <div style={{ display:'flex', flexDirection:'column', gap:18, marginBottom:24 }}>
+          {CONFIG.coupons.map((c, i) => (
+            <div key={i} className="coupon-card" style={{
+              animationDelay:`${i*0.15}s`,
+              opacity: redeemed.includes(i) ? 0.6 : 1,
+              position:'relative',
+              transform: sparkle===i ? 'scale(1.04)' : '',
+              transition:'all 0.3s',
+              borderColor: c.color + '88',
+            }}>
+              {/* Sparkle effect on redeem */}
+              {sparkle===i && (
+                <div style={{ position:'absolute', inset:0, borderRadius:24, animation:'glowPulse 1.5s ease', pointerEvents:'none',
+                  boxShadow:`0 0 40px ${c.color}88` }} />
+              )}
+              {/* REDEEMED stamp */}
+              {redeemed.includes(i) && (
+                <div style={{ position:'absolute', top:14, right:14,
+                  background:c.color, color:'white', borderRadius:10,
+                  padding:'3px 12px', fontSize:11, fontWeight:900,
+                  transform:'rotate(10deg)', letterSpacing:1 }}>REDEEMED ✓</div>
+              )}
+              {/* Decorative notches */}
+              <div style={{ position:'absolute', left:-10, top:'50%', transform:'translateY(-50%)',
+                width:20, height:20, borderRadius:'50%', background:'#fff0f5', border:'2px dashed #ffb3cc' }} />
+              <div style={{ position:'absolute', right:-10, top:'50%', transform:'translateY(-50%)',
+                width:20, height:20, borderRadius:'50%', background:'#fff0f5', border:'2px dashed #ffb3cc' }} />
+
+              <div style={{ display:'flex', alignItems:'center', gap:16 }}>
+                <div style={{
+                  width:65, height:65, borderRadius:'50%', flexShrink:0,
+                  background:`${c.color}18`, display:'flex', alignItems:'center', justifyContent:'center',
+                  fontSize:34, border:`2.5px solid ${c.color}55`,
+                  boxShadow:`0 4px 15px ${c.color}33`,
+                }}>{c.emoji}</div>
+                <div style={{ flex:1 }}>
+                  <div style={{ fontWeight:900, color:c.color, fontSize:19, marginBottom:4 }}>{c.title}</div>
+                  <div style={{ color:'#888', fontSize:13, lineHeight:1.5 }}>{c.desc}</div>
+                </div>
+              </div>
+              <button onClick={() => redeem(i)} style={{
+                marginTop:14, width:'100%', padding:'12px',
+                background: redeemed.includes(i) ? '#eee' : `linear-gradient(135deg,${c.color},${c.color}cc)`,
+                color: redeemed.includes(i) ? '#999' : 'white',
+                border:'none', borderRadius:50, fontFamily:'Nunito',
+                fontWeight:800, fontSize:14, cursor:'pointer', transition:'all 0.3s',
+                boxShadow: redeemed.includes(i) ? 'none' : `0 4px 15px ${c.color}44`,
+              }}>
+                {redeemed.includes(i) ? '✓ Marked Redeemed' : `Redeem "${c.title}" 💖`}
+              </button>
+            </div>
+          ))}
+        </div>
+        <button className="btn-secondary" onClick={onBack} style={{ width:'100%' }}>
+          ← Back to Choices
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 9: MEMORIES (Netflix-style cinematic)
+// =====================================================
+function MemoriesPage({ onBack, onVideoPlay, onVideoEnd }) {
+  const [current, setCurrent] = useState(0);
+  const [fade, setFade] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(true);
+  const [videoEnded, setVideoEnded] = useState(false);
+  const intervalRef = useRef(null);
+  const videoRef = useRef(null);
+  const currentMem = CONFIG.memories[current];
+  const isVideo = currentMem.type === 'video' && currentMem.img;
+
+  const goTo = useCallback((idx) => {
+    setFade(false);
+    setVideoEnded(false);
+    if (videoRef.current) { videoRef.current.pause(); }
+    setTimeout(() => {
+      setCurrent(idx);
+      setFade(true);
+    }, 400);
+  }, []);
+
+  const goNext = useCallback(() => {
+    goTo((current + 1) % CONFIG.memories.length);
+  }, [current, goTo]);
+
+  // Auto-advance: for images use 4s timer; for videos wait for onEnded
+  useEffect(() => {
+    clearInterval(intervalRef.current);
+    if (!isPlaying) return;
+    if (!isVideo) {
+      // Image: advance after 4 seconds
+      intervalRef.current = setInterval(() => {
+        setFade(false);
+        setVideoEnded(false);
+        setTimeout(() => {
+          setCurrent(c => (c + 1) % CONFIG.memories.length);
+          setFade(true);
+        }, 400);
+      }, 4000);
+    }
+    // For video: handled by onEnded below
+    return () => clearInterval(intervalRef.current);
+  }, [isPlaying, isVideo, current]);
+
+  // When a video ends, advance to next (only if isPlaying)
+  const handleVideoEnded = useCallback(() => {
+    if (!isPlaying) return;
+    setVideoEnded(true);
+    setTimeout(() => { goNext(); }, 600);
+  }, [isPlaying, goNext]);
+
+  // When switching to a new video, play it + pause bg music
+  useEffect(() => {
+    if (isVideo && videoRef.current && fade) {
+      videoRef.current.currentTime = 0;
+      videoRef.current.play().catch(() => {});
+      if (onVideoPlay) onVideoPlay();
+    } else if (!isVideo) {
+      // Switched to an image — resume bg music
+      if (onVideoEnd) onVideoEnd();
+    }
+  }, [current, isVideo, fade]);
+
+  // Resume bg music when leaving memories page
+  useEffect(() => {
+    return () => { if (onVideoEnd) onVideoEnd(); };
+  }, []);
+
+  const m = CONFIG.memories[current];
+
+  return (
+    <div className="page" style={{ background:'#080003', padding:0, justifyContent:'flex-start' }}>
+      {/* Cinematic header */}
+      <div style={{
+        width:'100%', padding:'20px 20px 12px',
+        background:'linear-gradient(to bottom,rgba(0,0,0,0.9),transparent)',
+        position:'relative', zIndex:2,
+        display:'flex', alignItems:'center', justifyContent:'space-between',
+      }}>
+        <div>
+          <h2 style={{ fontFamily:'Dancing Script', fontSize:28, color:'#ff6b9d',
+            textShadow:'0 0 20px rgba(255,107,157,0.8)' }}>Our Memories 💕</h2>
+          <p style={{ color:'rgba(255,179,204,0.7)', fontSize:12 }}>A story written together</p>
+        </div>
+        <div style={{ display:'flex', gap:8, alignItems:'center' }}>
+          <button onClick={() => setIsPlaying(p => !p)} style={{
+            background:'rgba(255,107,157,0.2)', border:'1px solid rgba(255,107,157,0.4)',
+            borderRadius:50, padding:'6px 14px', color:'#ff80ab', fontSize:12, fontWeight:700, cursor:'pointer',
+          }}>{isPlaying ? '⏸ Pause' : '▶ Play'}</button>
+        </div>
+      </div>
+
+      {/* Main Memory display — dynamic aspect ratio container */}
+      <div style={{ width:'100%', position:'relative', transition:'opacity 0.4s', opacity:fade?1:0 }}>
+        {m.type === 'video' && m.img ? (
+          <div style={{
+            width:'100%',
+            background:'#000',
+            display:'flex', alignItems:'center', justifyContent:'center',
+            minHeight: 220, maxHeight:'75vw',
+            overflow:'hidden',
+          }}>
+            <video
+              key={current}
+              ref={videoRef}
+              src={m.img}
+              autoPlay
+              muted={false}
+              playsInline
+              controls={false}
+              onEnded={handleVideoEnded}
+              style={{
+                width:'100%',
+                height:'auto',
+                maxHeight:'75vw',
+                display:'block',
+                objectFit:'contain',
+                background:'#000',
+              }}
+            />
+          </div>
+        ) : m.img ? (
+          <div style={{
+            width:'100%',
+            background:'#000',
+            display:'flex', alignItems:'center', justifyContent:'center',
+            minHeight: 220,
+          }}>
+            <img src={m.img} alt="memory" style={{
+              width:'100%', height:'auto', maxHeight:'80vw',
+              objectFit:'contain', display:'block',
+            }} />
+          </div>
+        ) : (
+          <div style={{
+            width:'100%', height:'60vw', maxHeight:400, display:'flex',
+            alignItems:'center', justifyContent:'center', flexDirection:'column',
+            background:'linear-gradient(135deg,#1a0010,#2d0018)',
+          }}>
+            <div style={{ display:'flex', alignItems:'center', gap:12, opacity:0.6 }}>
+              <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
+                {[0,1,2,3].map(i=><div key={i} style={{width:18,height:14,background:'rgba(255,107,157,0.3)',borderRadius:4}}/>)}
+              </div>
+              <div style={{ textAlign:'center' }}>
+                <div style={{ fontSize:60, animation:'float 3s ease-in-out infinite',
+                  filter:'drop-shadow(0 0 20px rgba(255,107,157,0.6))' }}>📷</div>
+                <p style={{ color:'rgba(255,179,204,0.6)', fontSize:13, marginTop:8 }}>
+                  Add a photo or video URL in CONFIG
+                </p>
+              </div>
+              <div style={{ display:'flex', flexDirection:'column', gap:8 }}>
+                {[0,1,2,3].map(i=><div key={i} style={{width:18,height:14,background:'rgba(255,107,157,0.3)',borderRadius:4}}/>)}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Overlay gradient — only on images, not videos */}
+        {!(m.type === 'video' && m.img) && (
+          <div style={{
+            position:'absolute', inset:0,
+            background:'linear-gradient(to bottom,transparent 40%,rgba(8,0,3,0.95))',
+            pointerEvents:'none',
+          }}/>
+        )}
+
+        {/* Counter badge */}
+        <div style={{
+          position:'absolute', top:14, right:14,
+          background:'rgba(255,64,129,0.9)', borderRadius:50,
+          padding:'5px 14px', fontSize:13, fontWeight:900, color:'white',
+          backdropFilter:'blur(10px)',
+        }}>{current + 1} / {CONFIG.memories.length}</div>
+
+        {/* Caption */}
+        <div style={{
+          padding:'12px 22px 8px', textAlign:'center',
+        }}>
+          <p style={{
+            fontFamily:'Dancing Script', fontSize:22, color:'#ff80ab',
+            textShadow:'0 0 30px rgba(255,107,157,0.8), 0 2px 10px rgba(0,0,0,0.9)',
+            fontWeight:700,
+          }}>{m.caption}</p>
+        </div>
+      </div>
+
+      {/* Film strip thumbnails */}
+      <div style={{
+        width:'100%', overflowX:'auto', padding:'10px 16px',
+        display:'flex', gap:10, scrollbarWidth:'none',
+      }}>
+        {CONFIG.memories.map((mem, i) => (
+          <button key={i} onClick={() => goTo(i)} style={{
+            flexShrink:0, width:60, height:60, borderRadius:10, overflow:'hidden',
+            border: i===current ? '2.5px solid #ff4081' : '2px solid rgba(255,107,157,0.3)',
+            cursor:'pointer', padding:0, background:'#1a0010',
+            boxShadow: i===current ? '0 0 15px rgba(255,64,129,0.7)' : 'none',
+            transition:'all 0.3s',
+            transform: i===current ? 'scale(1.1)' : 'scale(1)',
+          }}>
+            {mem.img ? (
+              mem.type==='video'
+                ? <video src={mem.img} muted style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+                : <img src={mem.img} alt="" style={{width:'100%',height:'100%',objectFit:'cover'}}/>
+            ) : (
+              <div style={{ width:'100%', height:'100%', display:'flex', alignItems:'center', justifyContent:'center',
+                background:'linear-gradient(135deg,#2d0018,#1a0010)', fontSize:22 }}>
+                {i===current ? '💖' : '📷'}
+              </div>
+            )}
+          </button>
+        ))}
+      </div>
+
+      {/* Dot navigation */}
+      <div style={{ display:'flex', gap:8, justifyContent:'center', marginBottom:10 }}>
+        {CONFIG.memories.map((_, i) => (
+          <button key={i} onClick={() => goTo(i)} style={{
+            width: i===current ? 28 : 8, height:8, borderRadius:50,
+            background: i===current ? '#ff4081' : 'rgba(255,107,157,0.35)',
+            border:'none', cursor:'pointer', transition:'all 0.35s', padding:0,
+          }} />
+        ))}
+      </div>
+
+      {/* Nav buttons */}
+      <div style={{ display:'flex', gap:12, padding:'0 20px 16px' }}>
+        <button onClick={() => goTo((current - 1 + CONFIG.memories.length) % CONFIG.memories.length)}
+          className="btn-secondary" style={{ flex:1, color:'#ff80ab', borderColor:'rgba(255,107,157,0.4)',
+            background:'rgba(255,255,255,0.07)', backdropFilter:'blur(10px)' }}>
+          ← Prev
+        </button>
+        <button onClick={() => goTo((current + 1) % CONFIG.memories.length)}
+          className="btn-primary" style={{ flex:1 }}>
+          Next →
+        </button>
+      </div>
+
+      <button onClick={onBack} style={{
+        margin:'0 20px 24px', background:'rgba(255,107,157,0.15)',
+        border:'1px solid rgba(255,107,157,0.35)', borderRadius:50,
+        color:'#ff80ab', padding:'13px', fontFamily:'Nunito', fontWeight:800,
+        fontSize:15, cursor:'pointer', width:'calc(100% - 40px)',
+      }}>
+        ← Back to Choices
+      </button>
+    </div>
+  );
+}
+
+// =====================================================
+// PAGE 10: FINAL LOVE PAGE
+// =====================================================
+function FinalPage({ onRestart }) {
+  const [showEaster, setShowEaster] = useState(false);
+  const [easterTaps, setEasterTaps] = useState(0);
+  const [particles, setParticles] = useState([]);
+
+  const tapLove = () => {
+    setEasterTaps(t => t + 1);
+    const p = Array.from({ length: 6 }, (_, i) => ({
+      id: Date.now() + i, emoji: HEARTS[Math.floor(Math.random() * HEARTS.length)],
+      x: rand(30, 70), delay: i * 0.1,
+    }));
+    setParticles(prev => [...prev.slice(-18), ...p]);
+    setTimeout(() => setParticles(prev => prev.filter(pp => !p.find(pp2 => pp2.id === pp.id))), 2000);
+    if (easterTaps >= 4) setShowEaster(true);
+  };
+
+  return (
+    <div className="page" style={{
+      background:'linear-gradient(160deg,#0d0008,#1a0010,#2d0018,#0d0008)',
+      padding:20, overflow:'hidden',
+    }}>
+      <Confetti active={true} count={80} />
+      <FloatingBgEmojis emojis={['💖','💕','💗','💓','💞','✨','🌹','💝']} count={28} opacity={0.12} />
+      <FloatingBalloons active={true} />
+
+      {/* Particle hearts from tap */}
+      {particles.map(p => (
+        <div key={p.id} style={{
+          position:'fixed', left:`${p.x}%`, bottom:'40%',
+          fontSize:24, animation:`particleRise 2s ${p.delay}s ease forwards`,
+          pointerEvents:'none', zIndex:9997,
+        }}>{p.emoji}</div>
+      ))}
+
+      <div style={{ position:'relative', zIndex:1, width:'100%', maxWidth:440, textAlign:'center', animation:'fadeInUp 1s ease' }}>
+        {/* Tapable heart */}
+        <div onClick={tapLove} style={{
+          fontSize:90, marginBottom:10,
+          animation:'heartbeat 1.5s ease-in-out infinite',
+          cursor:'pointer', filter:'drop-shadow(0 0 30px rgba(255,64,129,0.9))',
+          userSelect:'none',
+        }}>💖</div>
+
+        <p style={{ color:'rgba(255,179,204,0.6)', fontSize:12, marginBottom:8 }}>
+          (tap the heart {Math.max(0, 5 - easterTaps)} more times... 🥚)
+        </p>
+
+        <h1 className="love-text" style={{
+          fontFamily:'Dancing Script', fontSize:'clamp(28px,7vw,44px)',
+          color:'#ff6b9d', lineHeight:1.4, marginBottom:18, fontWeight:700,
+          textShadow:'0 0 40px rgba(255,107,157,0.7)',
+        }}>
+          {CONFIG.finalMessage}
+        </h1>
+
+        <div style={{ display:'flex', gap:6, justifyContent:'center', fontSize:30, marginBottom:22,
+          animation:'bounce 2s ease-in-out infinite' }}>
+          💕💖💗💓💞💝
+        </div>
+
+        <div className="glass-dark" style={{
+          borderRadius:26, padding:'26px 22px', marginBottom:20,
+          border:'1px solid rgba(255,107,157,0.35)',
+        }}>
+          <p style={{ color:'#ffb3cc', fontSize:15.5, lineHeight:1.9, fontFamily:'Nunito' }}>
+            Aaj tumhara birthday hai, {CONFIG.name} 🎂<br/>
+            Aur main chahta hoon ki tum jaano —<br/>
+            <span style={{ color:'#ff6b9d', fontWeight:900 }}>
+              tum mere liye kitni khaas ho. 💖
+            </span><br/><br/>
+            Happy Birthday, {CONFIG.name}! 🥳<br/>
+            <span style={{ fontFamily:'Satisfy', color:'#ff80ab', fontSize:16 }}>
+              Dil se, hamesha tumhara 🌹
+            </span>
+          </p>
+        </div>
+
+        {/* Stars */}
+        <div style={{ display:'flex', justifyContent:'center', gap:12, fontSize:26, marginBottom:20 }}>
+          {['⭐','🌟','✨','💫','⭐','🌟','✨'].map((s, i) => (
+            <span key={i} className="star" style={{ animationDuration:`${1.5 + i*0.25}s`, animationDelay:`${i*0.18}s` }}>{s}</span>
+          ))}
+        </div>
+
+        {showEaster && (
+          <div style={{
+            background:'rgba(255,107,157,0.18)', border:'1px solid rgba(255,107,157,0.4)',
+            borderRadius:18, padding:'18px 20px', marginBottom:20,
+            animation:'bubbleUp 0.6s ease forwards', color:'#ff80ab', fontSize:14, lineHeight:1.7,
+          }}>
+            🥚 Easter Egg Unlocked! 🥚<br/>
+            <span style={{ color:'#ffb3cc', fontSize:13.5, fontStyle:'italic', fontFamily:'Satisfy' }}>
+              "{CONFIG.easterEggMsg}"
+            </span>
+          </div>
+        )}
+
+        <div style={{ display:'flex', gap:12, flexWrap:'wrap' }}>
+          <button onClick={onRestart} className="btn-secondary" style={{ flex:1,
+            color:'#ff6b9d', borderColor:'rgba(255,107,157,0.5)',
+            background:'rgba(255,255,255,0.08)' }}>
+            🔄 Restart
+          </button>
+          <button onClick={tapLove} className="btn-primary" style={{ flex:1 }}>
+            💖 Send Love!
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// ADMIN / CUSTOMIZATION PANEL (invisible to girlfriend)
+// =====================================================
+function AdminPanel({ onClose, onSave }) {
+  const [pin, setPin] = useState('');
+  const [authed, setAuthed] = useState(false);
+  const [tab, setTab] = useState('personal');
+  const [cfg, setCfg] = useState({ ...CONFIG });
+  const [saved, setSaved] = useState(false);
+
+  const tryPin = () => {
+    if (pin === CONFIG.adminPin || pin === CONFIG.secretCode) { setAuthed(true); }
+    else { setPin(''); alert('Wrong PIN!'); }
+  };
+
+  const save = () => {
+    Object.assign(CONFIG, cfg);
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2500);
+    if (onSave) onSave();
+  };
+
+  const downloadUpdated = () => {
+    const source = document.documentElement.outerHTML;
+    const cfgJson = JSON.stringify(cfg, null, 2);
+    const updated = source.replace(
+      /let CONFIG = \{[\s\S]*?\n\};/m,
+      'let CONFIG = ' + cfgJson + ';'
+    );
+    const blob = new Blob([updated], { type: 'text/html' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'finalbday_updated.html';
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const tabs = [
+    { id:'personal', label:'👤 Personal' },
+    { id:'messages', label:'💌 Messages' },
+    { id:'coupons', label:'🎟️ Coupons' },
+    { id:'memories', label:'📸 Memories' },
+    { id:'security', label:'🔐 Security' },
+    { id:'music', label:'🎵 Music' },
+  ];
+
+  if (!authed) return (
+    <div className="admin-panel-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
+      <div className="admin-panel" style={{ maxWidth:360, marginTop:80 }}>
+        <h2 style={{ color:'#ff6b9d', fontFamily:'Dancing Script', fontSize:28, marginBottom:6 }}>🔐 Admin Access</h2>
+        <p style={{ color:'rgba(255,179,204,0.7)', fontSize:13, marginBottom:20 }}>Enter your admin PIN to continue</p>
+        <input className="admin-input" type="password" value={pin}
+          onChange={e => setPin(e.target.value)} onKeyDown={e => e.key==='Enter' && tryPin()}
+          placeholder="Enter PIN..." style={{ marginBottom:14, letterSpacing:6 }} />
+        <div style={{ display:'flex', gap:10 }}>
+          <button onClick={tryPin} style={{
+            flex:1, background:'linear-gradient(135deg,#ff4081,#e91e63)',
+            color:'white', border:'none', borderRadius:12, padding:'12px', fontFamily:'Nunito',
+            fontWeight:800, fontSize:15, cursor:'pointer',
+          }}>Unlock</button>
+          <button onClick={onClose} style={{
+            flex:1, background:'rgba(255,255,255,0.1)', color:'#ff80ab',
+            border:'1px solid rgba(255,107,157,0.3)', borderRadius:12, padding:'12px',
+            fontFamily:'Nunito', fontWeight:700, fontSize:15, cursor:'pointer',
+          }}>Cancel</button>
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <div className="admin-panel-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
+      <div className="admin-panel">
+        <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:20 }}>
+          <h2 style={{ color:'#ff6b9d', fontFamily:'Dancing Script', fontSize:28 }}>🛠️ Customization Panel</h2>
+          <button onClick={onClose} style={{ background:'rgba(255,107,157,0.2)', border:'none',
+            borderRadius:'50%', width:36, height:36, color:'#ff80ab', fontSize:20, cursor:'pointer', fontWeight:700 }}>×</button>
+        </div>
+
+        {/* Tabs */}
+        <div style={{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:18 }}>
+          {tabs.map(t => (
+            <button key={t.id} onClick={() => setTab(t.id)} style={{
+              padding:'7px 12px', borderRadius:20, fontSize:12, fontWeight:700, cursor:'pointer', fontFamily:'Nunito',
+              background: tab===t.id ? '#ff4081' : 'rgba(255,107,157,0.15)',
+              color: tab===t.id ? 'white' : '#ff80ab',
+              border: tab===t.id ? 'none' : '1px solid rgba(255,107,157,0.3)',
+            }}>{t.label}</button>
+          ))}
+        </div>
+
+        {/* Personal Tab */}
+        {tab === 'personal' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:12, fontSize:15 }}>Personal Details</h3>
+            {[['name','Name'],['nickname','Nickname'],['nickname2','Nickname 2'],['extraNickname','Extra Nickname'],['birthday','Birthday (YYYY-MM-DD)']].map(([key, label]) => (
+              <div key={key} style={{ marginBottom:12 }}>
+                <div className="admin-label">{label}</div>
+                <input className="admin-input" value={cfg[key]||''} onChange={e => setCfg({...cfg,[key]:e.target.value})} />
+              </div>
+            ))}
+            <div style={{ marginBottom:12 }}>
+              <div className="admin-label">Birthday Subtitle</div>
+              <input className="admin-input" value={cfg.birthdaySubtitle||''} onChange={e => setCfg({...cfg,birthdaySubtitle:e.target.value})} />
+            </div>
+          </div>
+        )}
+
+        {/* Messages Tab */}
+        {tab === 'messages' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:12, fontSize:15 }}>Text Messages</h3>
+            <div style={{ marginBottom:12 }}>
+              <div className="admin-label">Love Letter</div>
+              <textarea className="admin-input" rows={8} value={cfg.letter||''} onChange={e => setCfg({...cfg,letter:e.target.value})} style={{ borderRadius:12, padding:12, letterSpacing:'normal' }} />
+            </div>
+            <div style={{ marginBottom:12 }}>
+              <div className="admin-label">Final Message</div>
+              <input className="admin-input" value={cfg.finalMessage||''} onChange={e => setCfg({...cfg,finalMessage:e.target.value})} />
+            </div>
+            <div style={{ marginBottom:12 }}>
+              <div className="admin-label">Easter Egg Message</div>
+              <input className="admin-input" value={cfg.easterEggMsg||''} onChange={e => setCfg({...cfg,easterEggMsg:e.target.value})} />
+            </div>
+            <div style={{ marginBottom:12 }}>
+              <div className="admin-label">Fav Quote (italic text)</div>
+              <input className="admin-input" value={cfg.favQuote||''} onChange={e => setCfg({...cfg,favQuote:e.target.value})} />
+            </div>
+          </div>
+        )}
+
+        {/* Coupons Tab */}
+        {tab === 'coupons' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:12, fontSize:15 }}>Coupons (edit each one)</h3>
+            {cfg.coupons.map((c, i) => (
+              <div key={i} style={{ background:'rgba(255,107,157,0.08)', borderRadius:12, padding:12, marginBottom:12 }}>
+                <div style={{ color:'#ff80ab', fontSize:12, fontWeight:800, marginBottom:8 }}>Coupon {i+1}</div>
+                <div style={{ display:'grid', gridTemplateColumns:'60px 1fr', gap:8 }}>
+                  <div>
+                    <div className="admin-label">Emoji</div>
+                    <input className="admin-input" value={c.emoji} onChange={e => { const nc=[...cfg.coupons]; nc[i]={...nc[i],emoji:e.target.value}; setCfg({...cfg,coupons:nc}); }} />
+                  </div>
+                  <div>
+                    <div className="admin-label">Title</div>
+                    <input className="admin-input" value={c.title} onChange={e => { const nc=[...cfg.coupons]; nc[i]={...nc[i],title:e.target.value}; setCfg({...cfg,coupons:nc}); }} />
+                  </div>
+                </div>
+                <div style={{ marginTop:8 }}>
+                  <div className="admin-label">Description</div>
+                  <input className="admin-input" value={c.desc} onChange={e => { const nc=[...cfg.coupons]; nc[i]={...nc[i],desc:e.target.value}; setCfg({...cfg,coupons:nc}); }} />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Memories Tab */}
+        {tab === 'memories' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:6, fontSize:15 }}>Memory Cards</h3>
+            <p style={{ color:'rgba(255,179,204,0.6)', fontSize:12, marginBottom:12 }}>
+              📁 Upload photos/videos from your device — they'll be embedded directly in the file!
+            </p>
+            {cfg.memories.map((m, i) => (
+              <div key={i} style={{ background:'rgba(255,107,157,0.08)', borderRadius:12, padding:12, marginBottom:12 }}>
+                <div style={{ color:'#ff80ab', fontSize:12, fontWeight:800, marginBottom:8 }}>Memory {i+1}</div>
+                <div className="admin-label">Caption</div>
+                <input className="admin-input" value={m.caption} onChange={e => { const nm=[...cfg.memories]; nm[i]={...nm[i],caption:e.target.value}; setCfg({...cfg,memories:nm}); }} style={{ marginBottom:8 }} />
+
+                {/* File Upload Button */}
+                <div className="admin-label" style={{ marginBottom:6 }}>Upload Photo or Video</div>
+                <label style={{
+                  display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+                  padding:'10px', borderRadius:10, cursor:'pointer',
+                  border:'2px dashed rgba(255,107,157,0.45)',
+                  background: m.img ? 'rgba(255,107,157,0.15)' : 'rgba(255,107,157,0.06)',
+                  color:'#ff80ab', fontSize:13, fontWeight:700, marginBottom:8,
+                  transition:'all 0.2s',
+                }}>
+                  {m.img ? (m.type==='video' ? '🎬 Video loaded ✓ (tap to change)' : '📷 Photo loaded ✓ (tap to change)') : '⬆️ Tap to upload photo or video'}
+                  <input type="file" accept="image/*,video/*" style={{ display:'none' }}
+                    onChange={e => {
+                      const file = e.target.files[0];
+                      if (!file) return;
+                      const isVideo = file.type.startsWith('video/');
+                      const reader = new FileReader();
+                      reader.onload = ev => {
+                        const nm = [...cfg.memories];
+                        nm[i] = { ...nm[i], img: ev.target.result, type: isVideo ? 'video' : 'image' };
+                        setCfg({...cfg, memories: nm});
+                      };
+                      reader.readAsDataURL(file);
+                    }}
+                  />
+                </label>
+
+                {/* Preview */}
+                {m.img && (
+                  <div style={{ borderRadius:8, overflow:'hidden', marginBottom:8, maxHeight:120, display:'flex', alignItems:'center', justifyContent:'center', background:'#000' }}>
+                    {m.type === 'video'
+                      ? <video src={m.img} muted style={{ maxWidth:'100%', maxHeight:120, objectFit:'contain' }} />
+                      : <img src={m.img} alt="" style={{ maxWidth:'100%', maxHeight:120, objectFit:'contain' }} />
+                    }
+                  </div>
+                )}
+
+                {/* Or paste URL fallback */}
+                <div className="admin-label">Or paste URL / base64</div>
+                <input className="admin-input" value={m.img && m.img.startsWith('data:') ? '(embedded file)' : (m.img||'')}
+                  readOnly={m.img && m.img.startsWith('data:')}
+                  placeholder="https://... or data:image/..."
+                  onChange={e => { if (m.img && m.img.startsWith('data:')) return; const nm=[...cfg.memories]; nm[i]={...nm[i],img:e.target.value||null}; setCfg({...cfg,memories:nm}); }}
+                  style={{ marginBottom:8, opacity: m.img && m.img.startsWith('data:') ? 0.5 : 1 }}
+                />
+
+                {/* Clear button */}
+                {m.img && (
+                  <button onClick={() => { const nm=[...cfg.memories]; nm[i]={...nm[i],img:null,type:'image'}; setCfg({...cfg,memories:nm}); }}
+                    style={{ width:'100%', padding:'7px', borderRadius:8, border:'1px solid rgba(255,80,80,0.4)', background:'rgba(255,80,80,0.1)', color:'#ff6b6b', fontSize:12, fontWeight:700, cursor:'pointer', marginBottom:6 }}>
+                    🗑️ Remove media
+                  </button>
+                )}
+
+                <div className="admin-label">Type (auto-detected on upload)</div>
+                <select value={m.type||'image'} onChange={e => { const nm=[...cfg.memories]; nm[i]={...nm[i],type:e.target.value}; setCfg({...cfg,memories:nm}); }}
+                  style={{ width:'100%', padding:'8px 12px', borderRadius:10, border:'1px solid rgba(255,107,157,0.3)', background:'rgba(255,255,255,0.08)', color:'#ff80ab', fontFamily:'Nunito' }}>
+                  <option value="image">Image 📷</option>
+                  <option value="video">Video 🎬</option>
+                </select>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Security Tab */}
+        {tab === 'security' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:12, fontSize:15 }}>Security Settings</h3>
+            <p style={{ color:'rgba(255,255,100,0.8)', fontSize:12, marginBottom:14, background:'rgba(255,200,0,0.1)', padding:10, borderRadius:10 }}>
+              ⚠️ After changing password or secret code, refresh the page.
+            </p>
+            {[['password','Lock Screen Password'],['secretCode','Secret Admin Code (type as password)'],['adminPin','Admin PIN']].map(([key, label]) => (
+              <div key={key} style={{ marginBottom:12 }}>
+                <div className="admin-label">{label}</div>
+                <input className="admin-input" type="password" value={cfg[key]||''} onChange={e => setCfg({...cfg,[key]:e.target.value})} />
+              </div>
+            ))}
+          </div>
+        )}
+
+        {/* Music Tab */}
+        {tab === 'music' && (
+          <div className="admin-section">
+            <h3 style={{ color:'#ff80ab', marginBottom:6, fontSize:15 }}>🎵 Background Music</h3>
+            <p style={{ color:'rgba(255,179,204,0.5)', fontSize:11, marginBottom:14, background:'rgba(255,107,157,0.08)', borderRadius:8, padding:'8px 10px' }}>
+              🔁 Plays from the moment she unlocks. Loops forever. Pauses automatically when memory videos play.
+            </p>
+            <p style={{ color:'rgba(255,179,204,0.6)', fontSize:12, marginBottom:14 }}>
+              Upload a song from your device — it'll be embedded directly in the file!
+            </p>
+
+            {/* Upload button */}
+            <div className="admin-label" style={{ marginBottom:6 }}>Upload Song (MP3 / AAC / WAV)</div>
+            <label style={{
+              display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+              padding:'12px', borderRadius:12, cursor:'pointer',
+              border:'2px dashed rgba(255,107,157,0.45)',
+              background: cfg.musicUrl ? 'rgba(255,107,157,0.15)' : 'rgba(255,107,157,0.06)',
+              color:'#ff80ab', fontSize:13, fontWeight:700, marginBottom:10,
+            }}>
+              {cfg.musicUrl ? '🎵 Song loaded ✓ (tap to change)' : '⬆️ Tap to upload a song'}
+              <input type="file" accept="audio/*" style={{ display:'none' }}
+                onChange={e => {
+                  const file = e.target.files[0];
+                  if (!file) return;
+                  const name = file.name.replace(/\.[^.]+$/, '');
+                  const reader = new FileReader();
+                  reader.onload = ev => {
+                    setCfg({...cfg, musicUrl: ev.target.result, musicName: name});
+                    // Update live immediately
+                    Object.assign(CONFIG, {musicUrl: ev.target.result, musicName: name});
+                  };
+                  reader.readAsDataURL(file);
+                }}
+              />
+            </label>
+
+            {/* Song name display */}
+            {cfg.musicUrl && (
+              <div style={{
+                background:'rgba(255,107,157,0.1)', borderRadius:10, padding:'10px 14px',
+                marginBottom:10, display:'flex', alignItems:'center', gap:10,
+              }}>
+                <span style={{ fontSize:22 }}>🎵</span>
+                <div>
+                  <div style={{ color:'#ff80ab', fontWeight:800, fontSize:13 }}>
+                    {cfg.musicName || 'Uploaded song'}
+                  </div>
+                  <div style={{ color:'rgba(255,179,204,0.5)', fontSize:11 }}>
+                    {cfg.musicUrl.startsWith('data:') ? 'Embedded file ✓' : 'External URL'}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Song display name override */}
+            <div className="admin-label">Song display name (shown in player)</div>
+            <input className="admin-input" value={cfg.musicName||''} placeholder="e.g. Tum Hi Ho 💕"
+              onChange={e => setCfg({...cfg, musicName: e.target.value||null})}
+              style={{ marginBottom:10 }}
+            />
+
+            {/* Remove */}
+            {cfg.musicUrl && (
+              <button onClick={() => setCfg({...cfg, musicUrl:null, musicName:null})}
+                style={{ width:'100%', padding:'8px', borderRadius:8, border:'1px solid rgba(255,80,80,0.4)',
+                  background:'rgba(255,80,80,0.1)', color:'#ff6b6b', fontSize:12, fontWeight:700,
+                  cursor:'pointer', marginBottom:10 }}>
+                🗑️ Remove song
+              </button>
+            )}
+
+            {/* Fallback URL input */}
+            <div className="admin-label">Or paste a direct MP3 URL</div>
+            <input className="admin-input"
+              value={cfg.musicUrl && cfg.musicUrl.startsWith('data:') ? '' : (cfg.musicUrl||'')}
+              placeholder="https://example.com/song.mp3"
+              readOnly={cfg.musicUrl && cfg.musicUrl.startsWith('data:')}
+              style={{ opacity: cfg.musicUrl && cfg.musicUrl.startsWith('data:') ? 0.4 : 1 }}
+              onChange={e => { if (cfg.musicUrl && cfg.musicUrl.startsWith('data:')) return; setCfg({...cfg,musicUrl:e.target.value||null}); }}
+            />
+
+            {/* ── Candle Song ── */}
+            <div style={{ marginTop:20, paddingTop:16, borderTop:'1px solid rgba(255,107,157,0.2)' }}>
+              <h4 style={{ color:'#ff80ab', fontSize:14, marginBottom:4 }}>🎂 Birthday / Candle Song</h4>
+              <p style={{ color:'rgba(255,179,204,0.5)', fontSize:11, marginBottom:12, background:'rgba(255,107,157,0.08)', borderRadius:8, padding:'8px 10px' }}>
+                🕯️ Plays the moment she blows the candles. Plays once (no loop). Stops automatically when she moves to the next page.
+              </p>
+
+              <label style={{
+                display:'flex', alignItems:'center', justifyContent:'center', gap:8,
+                padding:'12px', borderRadius:12, cursor:'pointer',
+                border:'2px dashed rgba(255,107,157,0.45)',
+                background: cfg.candleSongUrl ? 'rgba(255,107,157,0.15)' : 'rgba(255,107,157,0.06)',
+                color:'#ff80ab', fontSize:13, fontWeight:700, marginBottom:10,
+              }}>
+                {cfg.candleSongUrl ? '🎂 Candle song loaded ✓ (tap to change)' : '⬆️ Upload candle song'}
+                <input type="file" accept="audio/*" style={{ display:'none' }}
+                  onChange={e => {
+                    const file = e.target.files[0];
+                    if (!file) return;
+                    const name = file.name.replace(/\.[^.]+$/, '');
+                    const reader = new FileReader();
+                    reader.onload = ev => {
+                      setCfg({...cfg, candleSongUrl: ev.target.result, candleSongName: name});
+                      Object.assign(CONFIG, {candleSongUrl: ev.target.result, candleSongName: name});
+                    };
+                    reader.readAsDataURL(file);
+                  }}
+                />
+              </label>
+
+              {cfg.candleSongUrl && (
+                <div style={{ background:'rgba(255,107,157,0.1)', borderRadius:10, padding:'10px 14px', marginBottom:10, display:'flex', alignItems:'center', gap:10 }}>
+                  <span style={{ fontSize:22 }}>🎂</span>
+                  <div>
+                    <div style={{ color:'#ff80ab', fontWeight:800, fontSize:13 }}>{cfg.candleSongName || 'Candle song'}</div>
+                    <div style={{ color:'rgba(255,179,204,0.5)', fontSize:11 }}>{cfg.candleSongUrl.startsWith('data:') ? 'Embedded ✓' : 'URL'}</div>
+                  </div>
+                </div>
+              )}
+
+              <div className="admin-label">Candle song display name</div>
+              <input className="admin-input" value={cfg.candleSongName||''} placeholder="e.g. Happy Birthday 🎂"
+                onChange={e => setCfg({...cfg, candleSongName: e.target.value||null})}
+                style={{ marginBottom:10 }}
+              />
+              {cfg.candleSongUrl && (
+                <button onClick={() => setCfg({...cfg, candleSongUrl:null, candleSongName:null})}
+                  style={{ width:'100%', padding:'8px', borderRadius:8, border:'1px solid rgba(255,80,80,0.4)',
+                    background:'rgba(255,80,80,0.1)', color:'#ff6b6b', fontSize:12, fontWeight:700, cursor:'pointer' }}>
+                  🗑️ Remove candle song
+                </button>
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* Save */}
+        <button onClick={save} style={{
+          width:'100%', marginTop:8, padding:'14px',
+          background:'linear-gradient(135deg,#ff4081,#e91e63)',
+          color:'white', border:'none', borderRadius:14,
+          fontFamily:'Nunito', fontWeight:900, fontSize:16, cursor:'pointer',
+          boxShadow:'0 6px 25px rgba(255,64,129,0.4)',
+          animation: saved ? 'pulse 0.5s ease-in-out' : 'none',
+        }}>
+          {saved ? '✅ Saved! Changes applied.' : '💾 Apply Changes (this session)'}
+        </button>
+        <button onClick={downloadUpdated} style={{
+          width:'100%', marginTop:10, padding:'14px',
+          background:'linear-gradient(135deg,#9c6bff,#7c3aed)',
+          color:'white', border:'none', borderRadius:14,
+          fontFamily:'Nunito', fontWeight:900, fontSize:16, cursor:'pointer',
+          boxShadow:'0 6px 25px rgba(156,107,255,0.4)',
+        }}>
+          ⬇️ Download Updated HTML (with videos/photos baked in)
+        </button>
+        <p style={{ color:'rgba(255,179,204,0.5)', fontSize:11, textAlign:'center', marginTop:8 }}>
+          Use "Download" to save a new .html file with your uploaded media permanently embedded.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+// =====================================================
+// MAIN APP
+// =====================================================
+function App() {
+  const [page, setPage] = useState('lock');
+  const [transKey, setTransKey] = useState(0);
+  const [showAdmin, setShowAdmin] = useState(false);
+  const [musicPlaying, setMusicPlaying] = useState(false);
+  const [candlePlaying, setCandlePlaying] = useState(false);
+  const audioRef = useRef(null);
+  const candleAudioRef = useRef(null);
+  const keyBuf = useRef('');
+  const keyTimer = useRef(null);
+
+  // Init background audio once
+  useEffect(() => {
+    if (!CONFIG.musicUrl) return;
+    if (audioRef.current) { audioRef.current.pause(); audioRef.current = null; }
+    audioRef.current = new Audio(CONFIG.musicUrl);
+    audioRef.current.loop = true;
+    audioRef.current.volume = 0.6;
+    return () => { audioRef.current?.pause(); };
+  }, []);
+
+  const startMusic = useCallback(() => {
+    if (!CONFIG.musicUrl) return;
+    if (!audioRef.current) {
+      audioRef.current = new Audio(CONFIG.musicUrl);
+      audioRef.current.loop = true;
+      audioRef.current.volume = 0.6;
+    }
+    audioRef.current.play().catch(() => {});
+    setMusicPlaying(true);
+  }, []);
+
+  // Candle song: play once when candles blown
+  const startCandleSong = useCallback(() => {
+    if (!CONFIG.candleSongUrl) return;
+    if (candleAudioRef.current) { candleAudioRef.current.pause(); candleAudioRef.current = null; }
+    candleAudioRef.current = new Audio(CONFIG.candleSongUrl);
+    candleAudioRef.current.loop = false;
+    candleAudioRef.current.volume = 0.85;
+    candleAudioRef.current.play().catch(() => {});
+    candleAudioRef.current.onended = () => setCandlePlaying(false);
+    setCandlePlaying(true);
+  }, []);
+
+  const stopCandleSong = useCallback(() => {
+    if (candleAudioRef.current) { candleAudioRef.current.pause(); candleAudioRef.current.currentTime = 0; }
+    setCandlePlaying(false);
+  }, []);
+
+  // Pause/resume bg music when memory videos play
+  const pauseBgMusic = useCallback(() => {
+    if (audioRef.current && musicPlaying) audioRef.current.pause();
+  }, [musicPlaying]);
+
+  const resumeBgMusic = useCallback(() => {
+    if (audioRef.current && musicPlaying) audioRef.current.play().catch(() => {});
+  }, [musicPlaying]);
+
+  // Secret keyboard shortcut: type secret code at any time (not in input)
+  useEffect(() => {
+    const handle = (e) => {
+      if (['INPUT','TEXTAREA'].includes(e.target.tagName)) return;
+      keyBuf.current += e.key.toLowerCase();
+      clearTimeout(keyTimer.current);
+      keyTimer.current = setTimeout(() => { keyBuf.current = ''; }, 2000);
+      if (keyBuf.current.endsWith(CONFIG.secretCode)) {
+        keyBuf.current = '';
+        setShowAdmin(true);
+      }
+    };
+    window.addEventListener('keydown', handle);
+    return () => window.removeEventListener('keydown', handle);
+  }, []);
+
+  const navigate = useCallback((to) => {
+    // Stop candle song when leaving birthday page
+    if (to !== 'birthday') stopCandleSong();
+    setTransKey(k => k + 1);
+    setPage(to);
+    window.scrollTo({ top:0, behavior:'smooth' });
+  }, [stopCandleSong]);
+
+  const handleUnlock = useCallback(() => {
+    startMusic();
+    navigate('intro');
+  }, [startMusic, navigate]);
+
+  const pageMap = {
+    lock: <LockScreen onUnlock={handleUnlock} onAdminOpen={() => setShowAdmin(true)} />,
+    intro: <IntroPage onYes={() => navigate('birthday')} onNo={() => navigate('no')} />,
+    no: <NoPage onBack={() => navigate('intro')} />,
+    birthday: <BirthdayCandlePage onNext={() => navigate('letter')} onCandleBlown={startCandleSong} />,
+    letter: <LetterPage onNext={() => navigate('choices')} />,
+    choices: <ChoicesPage onChoice={(c) => {
+      if (c === 'fav') navigate('fav');
+      else if (c === 'coupons') navigate('coupons');
+      else if (c === 'memories') navigate('memories');
+      else navigate('final');
+    }} />,
+    fav: <YourFavPage onBack={() => navigate('choices')} />,
+    coupons: <CouponsPage onBack={() => navigate('choices')} />,
+    memories: <MemoriesPage onBack={() => navigate('choices')} onVideoPlay={pauseBgMusic} onVideoEnd={resumeBgMusic} />,
+    final: <FinalPage onRestart={() => navigate('lock')} />,
+  };
+
+  return (
+    <div>
+      <div key={transKey} style={{ animation:'fadeIn 0.45s ease' }}>
+        <CountdownBadge />
+        <MusicPlayer audioRef={audioRef} playing={musicPlaying} setPlaying={setMusicPlaying} candleAudioRef={candleAudioRef} candlePlaying={candlePlaying} />
+        <ClickHearts />
+        {pageMap[page] || pageMap['lock']}
+      </div>
+
+      {/* 
+        ADMIN TRIGGER HINT (only for you, reading the source):
+        • Type "iloveyou" on any page (not in an input box) to open admin panel
+        • OR type it as the password on the lock screen
+        • Admin PIN is whatever CONFIG.adminPin is set to (default: "1234")
+      */}
+
+      {/* Invisible admin trigger dot - visually hidden */}
+      <div
+        onClick={() => setShowAdmin(true)}
+        style={{
+          position:'fixed', bottom:0, right:0, width:20, height:20,
+          opacity:0, cursor:'default', zIndex:99998,
+        }}
+        title=""
+      />
+
+      {showAdmin && (
+        <AdminPanel
+          onClose={() => setShowAdmin(false)}
+          onSave={() => {}}
+        />
+      )}
+    </div>
+  );
+}
+
+ReactDOM.render(<App />, document.getElementById('root'));
+</script>
+</body>
+</html>
